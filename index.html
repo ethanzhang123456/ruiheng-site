@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="内蒙古睿珩电子商务服务有限公司 - 专注跨境电商，深耕Ozon平台，助力中国品牌走向世界。">
+<meta name="keywords" content="跨境电商,Ozon,俄罗斯电商,内蒙古睿珩,电子商务,睿珩电商">
+<title>内蒙古睿珩电子商务服务有限公司 - 跨境电商领航者</title>
+<style>
+:root {
+--primary: #1a3c6e;
+--primary-light: #2a5ca8;
+--primary-dark: #0f2847;
+--accent: #e8913a;
+--accent-light: #f0a85c;
+--accent-dark: #d07a28;
+--text-dark: #1a1a2e;
+--text-medium: #4a4a6a;
+--text-light: #8a8aa0;
+--bg-white: #ffffff;
+--bg-light: #f5f7fa;
+--bg-dark: #0a1628;
+--border-color: #e0e4ec;
+--shadow-sm: 0 2px 8px rgba(0,0,0,0.06);
+--shadow-md: 0 4px 20px rgba(0,0,0,0.1);
+--shadow-lg: 0 8px 40px rgba(0,0,0,0.15);
+--shadow-xl: 0 16px 60px rgba(0,0,0,0.2);
+--radius-sm: 6px;
+--radius-md: 12px;
+--radius-lg: 20px;
+--transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+--max-width: 1200px;
+}
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; font-size: 16px; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; color: var(--text-dark); background: var(--bg-white); line-height: 1.7; overflow-x: hidden; }
+a { text-decoration: none; color: inherit; transition: var(--transition); }
+img { max-width: 100%; height: auto; display: block; }
+ul, ol { list-style: none; }
+.container { max-width: var(--max-width); margin: 0 auto; padding: 0 20px; }
+.section { padding: 100px 0; }
+.section-light { background: var(--bg-white); }
+.section-gray { background: var(--bg-light); }
+.section-dark { background: var(--bg-dark); color: var(--bg-white); }
+.section-header { text-align: center; margin-bottom: 60px; }
+.section-tag { display: inline-block; padding: 6px 20px; background: linear-gradient(135deg, var(--accent), var(--accent-light)); color: #fff; border-radius: 30px; font-size: 0.85rem; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 16px; }
+.section-title { font-size: 2.5rem; font-weight: 800; color: var(--text-dark); margin-bottom: 16px; line-height: 1.3; }
+.section-dark .section-title { color: var(--bg-white); }
+.section-subtitle { font-size: 1.1rem; color: var(--text-light); max-width: 650px; margin: 0 auto; line-height: 1.8; }
+.section-dark .section-subtitle { color: rgba(255,255,255,0.6); }
+.btn { display: inline-flex; align-items: center; gap: 8px; padding: 14px 32px; border-radius: 50px; font-size: 1rem; font-weight: 600; cursor: pointer; border: none; transition: var(--transition); }
+.btn-primary { background: linear-gradient(135deg, var(--accent), var(--accent-dark)); color: #fff; box-shadow: 0 4px 15px rgba(232,145,58,0.4); }
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(232,145,58,0.5); }
+.btn-outline { background: transparent; color: #fff; border: 2px solid rgba(255,255,255,0.4); }
+.btn-outline:hover { background: rgba(255,255,255,0.1); border-color: #fff; transform: translateY(-2px); }
+.highlight { color: var(--accent); }
+.fade-in { opacity: 0; transform: translateY(30px); transition: opacity 0.8s ease, transform 0.8s ease; }
+.fade-in.visible { opacity: 1; transform: translateY(0); }
+.fade-in-left { opacity: 0; transform: translateX(-40px); transition: opacity 0.8s ease, transform 0.8s ease; }
+.fade-in-left.visible { opacity: 1; transform: translateX(0); }
+.fade-in-right { opacity: 0; transform: translateX(40px); transition: opacity 0.8s ease, transform 0.8s ease; }
+.fade-in-right.visible { opacity: 1; transform: translateX(0); }
+
+.navbar { position: fixed; top: 0; left: 0; width: 100%; z-index: 1000; padding: 16px 0; transition: var(--transition); background: transparent; }
+.navbar.scrolled { background: rgba(255,255,255,0.97); backdrop-filter: blur(20px); box-shadow: var(--shadow-md); padding: 10px 0; }
+
+/* ================= 以下为补充完善的样式 ================= */
+.navbar-inner { display: flex; justify-content: space-between; align-items: center; }
+.logo { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 1.4rem; color: var(--primary); }
+.logo img { width: 40px; height: 40px; object-fit: contain; }
+.nav-links { display: flex; align-items: center; gap: 28px; }
+.nav-links a { font-weight: 500; font-size: 0.95rem; position: relative; }
+.nav-links a::after { content: ''; position: absolute; bottom: -4px; left: 0; width: 0; height: 2px; background: var(--accent); transition: var(--transition); }
+.nav-links a:hover { color: var(--accent); }
+.nav-links a:hover::after { width: 100%; }
+.nav-contact-btn { background: var(--primary); color: #fff !important; padding: 8px 20px; border-radius: 50px; font-size: 0.9rem !important; }
+.nav-contact-btn:hover { background: var(--primary-light); }
+.nav-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; }
+.nav-toggle span { width: 24px; height: 2px; background: var(--text-dark); transition: var(--transition); }
+
+.hero { position: relative; min-height: 100vh; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--bg-dark) 0%, #1a2c50 100%); overflow: hidden; }
+.hero-bg-pattern { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48cGF0dGVybiBpZD0iZ3JpZCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48cGF0aCBkPSJNIDQwIDAgTCAwIDAgMCA0MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDUpIiBzdHJva2Utd2lkdGg9IjEiLz48L3BhdHRlcm4+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JpZCkiLz48L3N2Zz4='); opacity: 0.6; }
+.hero-content { position: relative; text-align: center; max-width: 900px; color: #fff; padding: 0 20px; }
+.hero-content h1 { font-size: 3.8rem; font-weight: 800; margin-bottom: 24px; line-height: 1.2; }
+.hero-content h1 span { background: linear-gradient(120deg, var(--accent), var(--accent-light)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.hero-content p { font-size: 1.25rem; color: rgba(255,255,255,0.85); margin-bottom: 40px; max-width: 700px; margin-left: auto; margin-right: auto; line-height: 1.8; }
+.hero-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+
+.about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+.about-image-wrapper { position: relative; }
+.about-image-main { width: 100%; aspect-ratio: 8/7; border-radius: var(--radius-lg); overflow: hidden; background: linear-gradient(135deg, #e0e4ec, #f5f7fa); display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow-lg); }
+.about-image-main img { width: 100%; height: 100%; object-fit: cover; }
+.placeholder-text { color: var(--text-light); text-align: center; padding: 20px; font-size: 0.9rem; background: rgba(255,255,255,0.6); }
+.about-experience-badge { position: absolute; bottom: -20px; right: -20px; background: var(--bg-dark); color: #fff; padding: 24px; border-radius: var(--radius-md); box-shadow: var(--shadow-lg); text-align: center; }
+.about-experience-badge .number { font-size: 2.8rem; font-weight: 800; display: block; line-height: 1; }
+.about-experience-badge .label { font-size: 0.85rem; opacity: 0.8; margin-top: 6px; display: block; }
+.about-text h3 { font-size: 2rem; font-weight: 700; margin-bottom: 20px; line-height: 1.4; }
+.about-text p { margin-bottom: 16px; color: var(--text-medium); text-align: justify; }
+
+.services-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; }
+.service-card { background: var(--bg-white); padding: 35px 25px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); transition: var(--transition); text-align: center; border: 1px solid transparent; }
+.service-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-lg); border-color: var(--border-color); }
+.service-icon { width: 60px; height: 60px; background: var(--bg-light); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; font-size: 1.8rem; color: var(--accent); }
+.service-card h4 { font-size: 1.2rem; font-weight: 700; margin-bottom: 12px; }
+.service-card p { font-size: 0.95rem; color: var(--text-medium); }
+
+.ozon-content { display: grid; grid-template-columns: 1.2fr 1fr; gap: 50px; align-items: center; }
+.ozon-image-area { width: 100%; height: 450px; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-xl); background: linear-gradient(135deg, rgba(232,145,58,0.2), rgba(26,60,110,0.3)); display: flex; align-items: center; justify-content: center; border: 1px solid rgba(255,255,255,0.1); }
+.ozon-image-area img { width: 100%; height: 100%; object-fit: cover; }
+.ozon-image-area .placeholder-text { color: rgba(255,255,255,0.5); text-align: center; padding: 20px; }
+.ozon-text h3 { font-size: 2.2rem; font-weight: 800; margin-bottom: 20px; color: #fff; }
+.ozon-text p { color: rgba(255,255,255,0.8); margin-bottom: 30px; font-size: 1.05rem; }
+.ozon-features { display: grid; grid-template-columns: 1fr; gap: 16px; margin-bottom: 30px; }
+.ozon-feature { display: flex; gap: 16px; align-items: flex-start; }
+.ozon-feature .feat-icon { width: 40px; height: 40px; background: linear-gradient(135deg, var(--accent), var(--accent-dark)); border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; font-size: 1.1rem; flex-shrink: 0; }
+.ozon-feature .feat-text h4 { font-size: 1rem; font-weight: 600; margin-bottom: 4px; }
+.ozon-feature .feat-text p { font-size: 0.9rem; margin-bottom: 0; color: rgba(255,255,255,0.5); }
+.ozon-visual { position: relative; }
+
+.advantages-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.team-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+.team-card { text-align: center; }
+.team-img { width: 100%; height: 260px; border-radius: var(--radius-md); overflow: hidden; margin-bottom: 20px; background: var(--bg-light); display: flex; align-items: center; justify-content: center; }
+.team-img img { width: 100%; height: 100%; object-fit: cover; }
+.team-card h4 { font-size: 1.2rem; margin-bottom: 4px; }
+.team-card span { color: var(--text-light); font-size: 0.9rem; }
+
+.news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+.news-card { background: var(--bg-white); border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-sm); transition: var(--transition); }
+.news-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-md); }
+.news-img { height: 200px; background: #eee; overflow: hidden; }
+.news-img img { width: 100%; height: 100%; object-fit: cover; transition: var(--transition); }
+.news-card:hover .news-img img { transform: scale(1.05); }
+.news-body { padding: 24px; }
+.news-date { font-size: 0.85rem; color: var(--accent); font-weight: 600; margin-bottom: 8px; display: block; }
+.news-card h4 { font-size: 1.1rem; margin-bottom: 10px; line-height: 1.4; }
+.news-card p { font-size: 0.9rem; color: var(--text-light); margin-bottom: 0; }
+
+.contact-wrapper { display: grid; grid-template-columns: 1fr 1.5fr; gap: 50px; background: var(--bg-white); padding: 50px; border-radius: var(--radius-lg); box-shadow: var(--shadow-lg); }
+.contact-info h3 { font-size: 2rem; margin-bottom: 20px; }
+.contact-info p { color: var(--text-medium); margin-bottom: 30px; }
+.info-item { display: flex; gap: 15px; align-items: center; margin-bottom: 20px; }
+.info-icon { width: 45px; height: 45px; background: var(--bg-light); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--accent); }
+.info-text span { display: block; font-size: 0.9rem; color: var(--text-light); }
+.info-text strong { font-size: 1.05rem; }
+.contact-form { display: flex; flex-direction: column; gap: 15px; }
+.form-group input, .form-group textarea { width: 100%; padding: 14px 18px; border: 1px solid var(--border-color); border-radius: var(--radius-sm); font-size: 0.95rem; transition: var(--transition); font-family: inherit; }
+.form-group input:focus, .form-group textarea:focus { outline: none; border-color: var(--primary-light); box-shadow: 0 0 0 3px rgba(42,92,168,0.15); }
+.form-group textarea { height: 120px; resize: vertical; }
+
+.footer { background: var(--bg-dark); color: rgba(255,255,255,0.6); padding: 60px 0 30px; font-size: 0.9rem; }
+.footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 40px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 40px; }
+.footer h4 { color: #fff; font-size: 1.1rem; margin-bottom: 20px; }
+.footer-links a { display: block; margin-bottom: 10px; }
+.footer-links a:hover { color: var(--accent); }
+.footer-bottom { text-align: center; padding-top: 20px; }
+
+@media (max-width: 992px) {
+  .hero-content h1 { font-size: 2.8rem; }
+  .about-grid, .ozon-content, .contact-wrapper { grid-template-columns: 1fr; }
+  .services-grid, .advantages-grid, .team-grid, .news-grid { grid-template-columns: repeat(2, 1fr); }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .about-experience-badge { right: 10px; bottom: 10px; padding: 16px; }
+}
+@media (max-width: 768px) {
+  .nav-links { position: fixed; top: 0; right: -100%; width: 80%; height: 100vh; background: var(--bg-white); flex-direction: column; justify-content: center; align-items: center; gap: 24px; transition: var(--transition); box-shadow: -5px 0 20px rgba(0,0,0,0.1); }
+  .nav-links.active { right: 0; }
+  .nav-toggle { display: flex; z-index: 1001; }
+  .nav-toggle.active span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); background: var(--primary); }
+  .nav-toggle.active span:nth-child(2) { opacity: 0; }
+  .nav-toggle.active span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); background: var(--primary); }
+  .hero-content h1 { font-size: 2.2rem; }
+  .services-grid, .advantages-grid, .team-grid, .news-grid { grid-template-columns: 1fr; }
+  .footer-grid { grid-template-columns: 1fr; }
+  .contact-wrapper { padding: 25px; }
+}
+</style>
+</head>
+<body>
+
+<!-- ================= 导航栏 ================= -->
+<nav class="navbar" id="navbar">
+  <div class="container navbar-inner">
+    <a href="#" class="logo">
+      <!-- 📷 LOGO插入区：替换下方 src 为你的 logo 图片路径 -->
+      <img src="images/logo.png" alt="睿珩电商LOGO" onerror="this.style.display='none'">
+      睿珩电商
+    </a>
+    <div class="nav-links" id="navLinks">
+<a href="#about">关于我们</a><a href="#services">业务板块</a><a href="#ozon">Ozon平台</a><a href="#team">团队风采</a><a href="#news">新闻动态</a><a href="#contact" class="nav-contact-btn">联系我们</a></div><div class="nav-toggle" id="navToggle"><span></span><span></span><span></span></div></div></nav>
+
+<!-- ================= Hero 首屏 ================= -->
+<section class="hero" id="home"><div class="hero-bg-pattern"></div><div class="hero-grid-overlay"></div><div class="container"><div class="hero-content"><h1>深耕跨境电商<br><span>连接中国与俄罗斯</span></h1><p>内蒙古睿珩电子商务服务有限公司，成立于2026年4月16日，专注于跨境电商全链路服务。以Ozon平台为核心阵地，助力中国品牌与优质商品走向俄罗斯及独联体市场，构建高效、安全、可持续的跨境贸易新生态。</p><div class="hero-btns"><a href="#services" class="btn btn-primary">探索业务服务</a><a href="#contact" class="btn btn-outline">预约商务咨询</a></div></div></div></section>
+
+<!-- ================= 关于我们 ================= -->
+<section class="section section-light" id="about">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">ABOUT US</span>
+      <h2 class="section-title">品牌简介</h2>
+      <p class="section-subtitle">立足北疆，放眼欧亚。以数字化能力重塑跨境贸易价值链。</p>
+    </div>
+    <div class="about-grid">
+      <div class="about-image-wrapper fade-in-left">
+<div class="about-image-main"><img src="images/about.jpg" alt="公司环境"></div><div class="about-experience-badge"><span class="number">2026</span><span class="label">品牌成立<br>新起点</span></div></div><div class="about-text fade-in-right"><h3>以科技驱动跨境贸易，<br>用专业成就品牌出海</h3><p><strong>内蒙古睿珩电子商务服务有限公司</strong>成立于2026年4月16日，是一家专注于跨境电商领域的新锐企业。公司坐落于内蒙古自治区呼和浩特市，依托"一带一路"倡议及中俄贸易的强劲势头，致力于为国内外品牌提供全方位的跨境电商解决方案。</p><p>公司以Ozon平台为核心运营阵地，业务涵盖店铺代运营、品牌出海策划、跨境物流整合、供应链管理、数据分析及本地化营销等全链路服务。凭借专业的运营团队、高效的物流网络和深度的市场洞察，睿珩电商正快速成长为中俄跨境电商领域的重要力量。</p><a href="#contact" class="btn btn-primary" style="margin-top: 10px;">获取定制方案</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 业务板块 ================= -->
+<section class="section section-gray" id="services">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">OUR SERVICES</span>
+      <h2 class="section-title">核心业务矩阵</h2>
+      <p class="section-subtitle">从0到1全周期陪跑，提供可落地、可量化的跨境增长策略。</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card fade-in">
+        <div class="service-icon">🌍</div>
+        <h4>平台代运营</h4>
+        <p>Ozon官方认证服务商，提供店铺搭建、商品上架、活动策划及日常精细化运营。</p>
+      </div>
+      <div class="service-card fade-in">
+        <div class="service-icon">📊</div>
+        <h4>数据分析与市场洞察</h4>
+        <p>依托自研选品模型，精准定位蓝海类目，实时监控竞品动态与流量转化。</p>
+      </div>
+      <div class="service-card fade-in">
+        <div class="service-icon">🚚</div>
+        <h4>跨境物流与供应链</h4>
+        <p>整合头程/尾程优质渠道，提供海外仓一件代发、退换货处理及供应链金融支持。</p>
+      </div>
+      <div class="service-card fade-in">
+        <div class="service-icon">🎨</div>
+        <h4>品牌本地化营销</h4>
+        <p>俄语区本土化视觉设计、KOL社媒推广、VK/Yandex广告投放，打造品牌心智。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= Ozon 平台优势 ================= -->
+<section class="section section-dark" id="ozon">
+  <div class="container">
+    <div class="ozon-content">
+      <div class="ozon-text fade-in-left">
+        <span class="section-tag" style="margin-bottom: 20px;">CORE PLATFORM</span>
+        <h3>为什么选择 <span class="highlight">Ozon</span>？</h3>
+        <p>Ozon是俄罗斯历史最悠久、规模最大的电商平台之一。随着中俄经贸合作深化，Ozon正迎来爆发式增长。睿珩电商深度绑定平台官方资源，为卖家提供流量扶持、合规指导与资金快速回笼方案。</p>
+        <div class="ozon-features">
+          <div class="ozon-feature">
+            <div class="feat-icon">📈</div>
+            <div class="feat-text"><h4>流量红利期</h4><p>平台持续开放中国卖家入驻，政策倾斜明显，新店起量快。</p></div>
+          </div>
+          <div class="ozon-feature">
+            <div class="feat-icon">🛡️</div>
+            <div class="feat-text"><h4>结算安全透明</h4><p>支持人民币直接结算，汇率透明，规避汇兑风险与资金冻结。</p></div>
+          </div>
+          <div class="ozon-feature">
+            <div class="feat-icon">🌐</div>
+            <div class="feat-text"><h4>全俄物流覆盖</h4><p>自有仓储网络+合作伙伴，覆盖莫斯科至远东全境，配送时效稳定。</p></div>
+          </div>
+        </div>
+        <a href="#contact" class="btn btn-primary">申请入驻辅导</a>
+      </div>
+      <div class="ozon-visual fade-in-right">
+<div class="ozon-image-area"><img src="images/ozon.jpg" alt="Ozon平台展示"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 团队风采 ================= -->
+<section class="section section-light" id="team">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">OUR TEAM</span>
+      <h2 class="section-title">核心运营团队</h2>
+      <p class="section-subtitle">汇聚跨境电商、俄语本地化、供应链管理及数字营销领域的资深专家。</p>
+    </div>
+    <div class="team-grid">
+      <div class="team-card fade-in">
+        <div class="team-img"><img src="images/team1.jpg" alt="负责人"></div>
+        <h4>张睿</h4><span>创始人 & 首席战略官</span>
+      </div>
+      <div class="team-card fade-in">
+        <div class="team-img"><img src="images/team2.jpg" alt="运营主管"></div>
+        <h4>姚政涛</h4><span>Ozon运营总监</span>
+      </div>
+      <div class="team-card fade-in">
+        <div class="team-img"><img src="images/team3.jpg" alt="市场主管"></div>
+        <h4>王雪晴</h4><span>本地化营销负责人</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 新闻动态 ================= -->
+<section class="section section-gray" id="news">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">LATEST NEWS</span>
+      <h2 class="section-title">行业动态</h2>
+      <p class="section-subtitle">紧跟跨境政策风向，分享一线实战干货。</p>
+    </div>
+    <div class="news-grid">
+      <div class="news-card fade-in">
+        <div class="news-img"><img src="images/news1.jpg" alt="新闻1"></div>
+        <div class="news-body"><span class="news-date">2026-05-12</span><h4>Ozon 2026春季卖家大会圆满落幕，睿珩斩获年度新锐服务商</h4><p>大会聚焦中俄电商新趋势，睿珩电商凭借出色的GMV增速与卖家口碑荣获表彰。</p></div>
+      </div>
+      <div class="news-card fade-in">
+        <div class="news-img"><img src="images/news1.jpg" alt="新闻1"></div>
+        <div class="news-body"><span class="news-date">2026-04-28</span><h4>俄罗斯消费电子类目需求激增，跨境卖家如何抢占先机？</h4><p>深度解析Ozon平台3C数码类目数据，提供选品、定价与物流优化实战指南。</p></div>
+      </div>
+      <div class="news-card fade-in">
+        <div class="news-img"><img src="images/news1.jpg" alt="新闻1"></div>
+        <div class="news-body"><span class="news-date">2026-04-16</span><h4>睿珩电商正式成立，开启品牌出海新篇章</h4><p>公司扎根内蒙古，整合南北跨境资源，致力于为中国制造企业打通俄语区销路。</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 联系我们 ================= -->
+<section class="section section-light" id="contact">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">CONTACT US</span>
+      <h2 class="section-title">开启跨境增长之旅</h2>
+    </div>
+    <div class="contact-wrapper fade-in">
+      <div class="contact-info">
+        <h3>联系 <span class="highlight">睿珩</span></h3>
+        <p>无论是平台入驻咨询、代运营合作，还是供应链对接，我们的商务团队将在24小时内为您提供专业解答。</p>
+        <div class="info-item"><div class="info-icon">📞</div><div class="info-text"><span>业务咨询热线</span><strong>15647151775</strong></div></div>
+        <div class="info-item"><div class="info-icon">📍</div><div class="info-text"><span>总部地址</span><strong>内蒙古自治区乌兰察布市</strong></div></div>
+        <div class="info-item"><div class="info-icon">📧</div><div class="info-text"><span>商务合作邮箱</span><strong>ruiheng@ruihengstore.cn</strong></div></div>
+        <div style="margin-top: 30px; height: 200px; background: var(--bg-light); border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center;">
+          <img src="images/contact.jpg" alt="联系方式">
+        </div>
+      </div>
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('感谢您的留言！我们会尽快联系您。'); this.reset();">
+        <div class="form-group"><input type="text" placeholder="您的姓名" required></div>
+        <div class="form-group"><input type="tel" placeholder="联系电话" required></div>
+        <div class="form-group"><input type="text" placeholder="公司名称/主营类目"></div>
+        <div class="form-group"><textarea placeholder="请简述您的合作需求或咨询问题..."></textarea></div>
+        <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">提交咨询</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 页脚 ================= -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4 style="font-size: 1.4rem; margin-bottom: 15px;">内蒙古睿珩电子商务服务有限公司</h4>
+        <p style="line-height: 1.8;">专注Ozon平台全链路跨境服务。以数据为驱动，以结果为导向，助力中国制造闪耀欧亚大陆。</p>
+      </div>
+      <div class="footer-links">
+        <h4>快速导航</h4>
+        <a href="#about">关于我们</a><a href="#services">业务板块</a><a href="#ozon">Ozon合作</a><a href="#contact">联系合作</a>
+      </div>
+      <div class="footer-links">
+        <h4>核心服务</h4>
+        <a href="#">Ozon代运营</a><a href="#">跨境物流仓储</a><a href="#">俄语区本土营销</a><a href="#">供应链整合</a>
+      </div>
+      <div class="footer-links">
+        <h4>关注我们</h4>
+        <a href="#">微信公众号：睿珩电子商务</a>
+        <a href="#">抖音号：@睿珩出海实战</a>
+        <a href="#">知乎专栏：Ozon运营笔记</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 内蒙古睿珩电子商务服务有限公司 版权所有</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+// 导航栏滚动效果
+const navbar = document.getElementById('navbar');
+window.addEventListener('scroll', () => {
+  navbar.classList.toggle('scrolled', window.scrollY > 50);
+});
+
+// 移动端菜单切换
+const navToggle = document.getElementById('navToggle');
+const navLinks = document.getElementById('navLinks');
+navToggle.addEventListener('click', () => {
+  navToggle.classList.toggle('active');
+  navLinks.classList.toggle('active');
+});
+// 点击链接自动关闭菜单
+navLinks.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    navToggle.classList.remove('active');
+    navLinks.classList.remove('active');
+  });
+});
+
+// 滚动动画 (Intersection Observer)
+const observerOptions = { threshold: 0.15, rootMargin: '0px 0px -50px 0px' };
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      observer.unobserve(entry.target);
+    }
+  });
+}, observerOptions);
+
+document.querySelectorAll('.fade-in, .fade-in-left, .fade-in-right').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
